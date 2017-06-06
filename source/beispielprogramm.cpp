@@ -15,3 +15,12 @@ return 1;
 std::cout<< " Achievement unlocked \n ";
 return 0;
 }
+//cmake -DCMAKE_BUILD_TYPE=Debug
+//gdb beispiel
+//run
+//break 11
+//run
+//print key
+//set key=1234
+//print key
+//step

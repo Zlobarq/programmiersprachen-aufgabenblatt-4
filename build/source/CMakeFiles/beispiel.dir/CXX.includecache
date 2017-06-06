@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/source/beispielprogramm.cpp
+iostream
+-
+

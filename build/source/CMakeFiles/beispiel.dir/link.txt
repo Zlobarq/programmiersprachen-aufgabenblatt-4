@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++14 -Wall  -Wl,-z,relro -Wl,-z,now -rdynamic CMakeFiles/beispiel.dir/beispielprogramm.cpp.o  -o beispiel 
