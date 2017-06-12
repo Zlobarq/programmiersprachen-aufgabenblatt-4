@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -226,15 +226,15 @@ vector
 assert.h
 -
 
-/home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/source/list.cpp
+/home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/source/list.cpp
 iostream
 -
 list.hpp
-/home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/source/list.hpp
+/home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/source/list.hpp
 catch.hpp
 -
 
-/home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/source/list.hpp
+/home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/source/list.hpp
 cstddef
 -
 iostream

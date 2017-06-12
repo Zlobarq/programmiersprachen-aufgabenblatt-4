@@ -1,8 +1,8 @@
-The system is: Linux - 4.9.29-28.lts - x86_64
+The system is: Linux - 4.10.5-1-ARCH - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/cc 
-Build flags: -g2;-O3;-pipe;-fPIC;-Wformat;-Wformat-security;-malign-data=abi;-fno-omit-frame-pointer;-fexceptions;-Wp,-D_FORTIFY_SOURCE=2;-fstack-protector;--param;ssp-buffer-size=32;-fasynchronous-unwind-tables;-ftree-loop-distribute-patterns;-fno-semantic-interposition;-ftree-vectorize;-ftree-loop-vectorize;-feliminate-unused-debug-types;-Wall;-Wno-error;-Wp,-D_REENTRANT
-Id flags:  
+Build flags: 
+Id flags: 
 
 The output was:
 0
@@ -10,12 +10,12 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/3.8.1/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/3.7.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
-Build flags: -g2;-O3;-pipe;-fPIC;-malign-data=abi;-fno-omit-frame-pointer;-fexceptions;-Wp,-D_FORTIFY_SOURCE=2;-fstack-protector;--param;ssp-buffer-size=32;-fasynchronous-unwind-tables;-ftree-loop-distribute-patterns;-fno-semantic-interposition;-ftree-vectorize;-ftree-loop-vectorize;-feliminate-unused-debug-types;-Wall;-Wno-error;-Wp,-D_REENTRANT
-Id flags:  
+Build flags: 
+Id flags: 
 
 The output was:
 0
@@ -23,76 +23,76 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/3.8.1/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/3.7.2/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_284a6/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_284a6.dir/build.make CMakeFiles/cmTC_284a6.dir/build
-gmake[1]: Entering directory '/home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_284a6.dir/testCCompiler.c.o
-/usr/bin/cc   -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -malign-data=abi -fno-omit-frame-pointer -fexceptions -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-loop-distribute-patterns -fno-semantic-interposition -ftree-vectorize -ftree-loop-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -o CMakeFiles/cmTC_284a6.dir/testCCompiler.c.o   -c /home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_284a6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_284a6.dir/link.txt --verbose=1
-/usr/bin/cc -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -malign-data=abi -fno-omit-frame-pointer -fexceptions -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-loop-distribute-patterns -fno-semantic-interposition -ftree-vectorize -ftree-loop-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now  -rdynamic CMakeFiles/cmTC_284a6.dir/testCCompiler.c.o  -o cmTC_284a6 
-gmake[1]: Leaving directory '/home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_e0c4c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e0c4c.dir/build.make CMakeFiles/cmTC_e0c4c.dir/build
+make[1]: Verzeichnis „/home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_e0c4c.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_e0c4c.dir/testCCompiler.c.o   -c /home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_e0c4c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0c4c.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_e0c4c.dir/testCCompiler.c.o  -o cmTC_e0c4c -rdynamic 
+make[1]: Verzeichnis „/home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_657eb/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_657eb.dir/build.make CMakeFiles/cmTC_657eb.dir/build
-gmake[1]: Entering directory '/home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_657eb.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc   -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -malign-data=abi -fno-omit-frame-pointer -fexceptions -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-loop-distribute-patterns -fno-semantic-interposition -ftree-vectorize -ftree-loop-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -o CMakeFiles/cmTC_657eb.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.8/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_657eb
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_657eb.dir/link.txt --verbose=1
-/usr/bin/cc -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -malign-data=abi -fno-omit-frame-pointer -fexceptions -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-loop-distribute-patterns -fno-semantic-interposition -ftree-vectorize -ftree-loop-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now -v -rdynamic CMakeFiles/cmTC_657eb.dir/CMakeCCompilerABI.c.o  -o cmTC_657eb 
-Using built-in specs.
+Run Build Command:"/usr/bin/make" "cmTC_af96d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_af96d.dir/build.make CMakeFiles/cmTC_af96d.dir/build
+make[1]: Verzeichnis „/home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_af96d.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_af96d.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.7/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_af96d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af96d.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_af96d.dir/CMakeCCompilerABI.c.o  -o cmTC_af96d -rdynamic  
+Es werden eingebaute Spezifikationen verwendet.
 COLLECT_GCC=/usr/bin/cc
-COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-solus-linux/6.3.0/lto-wrapper
-Target: x86_64-solus-linux
-Configured with: ../gcc-6.3.0/configure --prefix=/usr --with-pkgversion=Solus --libdir=/usr/lib64 --libexecdir=/usr/lib64 --with-system-zlib --enable-shared --enable-threads=posix --enable-gnu-indirect-function --enable-__cxa_atexit --enable-plugin --enable-gold --enable-ld=default --enable-clocale=gnu --enable-multilib --with-multilib-list=m32,m64 --enable-lto --with-bugurl=https://dev.solus-project.com/ --with-arch_32=i686 --enable-linker-build-id --build=x86_64-solus-linux --target=x86_64-solus-linux --enable-languages=c,c++,fortran
-Thread model: posix
-gcc version 6.3.0 (Solus) 
-COMPILER_PATH=/usr/lib64/gcc/x86_64-solus-linux/6.3.0/:/usr/lib64/gcc/x86_64-solus-linux/6.3.0/:/usr/lib64/gcc/x86_64-solus-linux/:/usr/lib64/gcc/x86_64-solus-linux/6.3.0/:/usr/lib64/gcc/x86_64-solus-linux/
-LIBRARY_PATH=/usr/lib64/gcc/x86_64-solus-linux/6.3.0/:/usr/lib64/gcc/x86_64-solus-linux/6.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-solus-linux/6.3.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-g2' '-O3' '-pipe' '-fPIC' '-Wformat=1' '-Wformat-security' '-malign-data=abi' '-fno-omit-frame-pointer' '-fexceptions' '-fstack-protector' '--param' 'ssp-buffer-size=32' '-fasynchronous-unwind-tables' '-ftree-loop-distribute-patterns' '-fno-semantic-interposition' '-ftree-vectorize' '-ftree-loop-vectorize' '-feliminate-unused-debug-types' '-Wall' '-Wno-error' '-v' '-rdynamic' '-o' 'cmTC_657eb' '-mtune=generic' '-march=x86-64'
- /usr/lib64/gcc/x86_64-solus-linux/6.3.0/collect2 -plugin /usr/lib64/gcc/x86_64-solus-linux/6.3.0/liblto_plugin.so -plugin-opt=/usr/lib64/gcc/x86_64-solus-linux/6.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cchh0ubt.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /usr/lib64/ld-linux-x86-64.so.2 -o cmTC_657eb /usr/lib64/gcc/x86_64-solus-linux/6.3.0/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-solus-linux/6.3.0/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-solus-linux/6.3.0/crtbegin.o -L/usr/lib64/gcc/x86_64-solus-linux/6.3.0 -L/usr/lib64/gcc/x86_64-solus-linux/6.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-solus-linux/6.3.0/../../.. -z relro -z now CMakeFiles/cmTC_657eb.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib64/gcc/x86_64-solus-linux/6.3.0/crtend.o /usr/lib64/gcc/x86_64-solus-linux/6.3.0/../../../../lib64/crtn.o
-COLLECT_GCC_OPTIONS='-g2' '-O3' '-pipe' '-fPIC' '-Wformat=1' '-Wformat-security' '-malign-data=abi' '-fno-omit-frame-pointer' '-fexceptions' '-fstack-protector' '--param' 'ssp-buffer-size=32' '-fasynchronous-unwind-tables' '-ftree-loop-distribute-patterns' '-fno-semantic-interposition' '-ftree-vectorize' '-ftree-loop-vectorize' '-feliminate-unused-debug-types' '-Wall' '-Wno-error' '-v' '-rdynamic' '-o' 'cmTC_657eb' '-mtune=generic' '-march=x86-64'
-gmake[1]: Leaving directory '/home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp'
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/lto-wrapper
+Ziel: x86_64-pc-linux-gnu
+Konfiguriert mit: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --enable-libmpx --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --disable-multilib --disable-werror --enable-checking=release
+Thread-Modell: posix
+gcc-Version 6.3.1 20170306 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/opt/intel/composerxe/compiler/lib/intel64/:/opt/intel/composerxe/ipp/../compiler/lib/intel64/:/opt/intel/composerxe/ipp/lib/intel64/:/opt/intel/composerxe/compiler/lib/intel64/:/opt/intel/composerxe/mkl/lib/intel64/:/opt/intel/composerxe/tbb/lib/intel64/gcc4.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_af96d' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cckqDpYn.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_af96d /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/crt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/crtbegin.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/opt/intel/composerxe/compiler/lib/intel64 -L/opt/intel/composerxe/ipp/../compiler/lib/intel64 -L/opt/intel/composerxe/ipp/lib/intel64 -L/opt/intel/composerxe/compiler/lib/intel64 -L/opt/intel/composerxe/mkl/lib/intel64 -L/opt/intel/composerxe/tbb/lib/intel64/gcc4.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../.. CMakeFiles/cmTC_af96d.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/crtend.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_af96d' '-rdynamic' '-mtune=generic' '-march=x86-64'
+make[1]: Verzeichnis „/home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_657eb/fast"]
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_657eb.dir/build.make CMakeFiles/cmTC_657eb.dir/build]
-  ignore line: [gmake[1]: Entering directory '/home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_657eb.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc   -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -malign-data=abi -fno-omit-frame-pointer -fexceptions -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-loop-distribute-patterns -fno-semantic-interposition -ftree-vectorize -ftree-loop-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -o CMakeFiles/cmTC_657eb.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.8/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_657eb]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_657eb.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -malign-data=abi -fno-omit-frame-pointer -fexceptions -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-loop-distribute-patterns -fno-semantic-interposition -ftree-vectorize -ftree-loop-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now -v -rdynamic CMakeFiles/cmTC_657eb.dir/CMakeCCompilerABI.c.o  -o cmTC_657eb ]
-  ignore line: [Using built-in specs.]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_af96d/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_af96d.dir/build.make CMakeFiles/cmTC_af96d.dir/build]
+  ignore line: [make[1]: Verzeichnis „/home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird betreten]
+  ignore line: [Building C object CMakeFiles/cmTC_af96d.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_af96d.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.7/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_af96d]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af96d.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_af96d.dir/CMakeCCompilerABI.c.o  -o cmTC_af96d -rdynamic  ]
+  ignore line: [Es werden eingebaute Spezifikationen verwendet.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
-  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-solus-linux/6.3.0/lto-wrapper]
-  ignore line: [Target: x86_64-solus-linux]
-  ignore line: [Configured with: ../gcc-6.3.0/configure --prefix=/usr --with-pkgversion=Solus --libdir=/usr/lib64 --libexecdir=/usr/lib64 --with-system-zlib --enable-shared --enable-threads=posix --enable-gnu-indirect-function --enable-__cxa_atexit --enable-plugin --enable-gold --enable-ld=default --enable-clocale=gnu --enable-multilib --with-multilib-list=m32,m64 --enable-lto --with-bugurl=https://dev.solus-project.com/ --with-arch_32=i686 --enable-linker-build-id --build=x86_64-solus-linux --target=x86_64-solus-linux --enable-languages=c,c++,fortran]
-  ignore line: [Thread model: posix]
-  ignore line: [gcc version 6.3.0 (Solus) ]
-  ignore line: [COMPILER_PATH=/usr/lib64/gcc/x86_64-solus-linux/6.3.0/:/usr/lib64/gcc/x86_64-solus-linux/6.3.0/:/usr/lib64/gcc/x86_64-solus-linux/:/usr/lib64/gcc/x86_64-solus-linux/6.3.0/:/usr/lib64/gcc/x86_64-solus-linux/]
-  ignore line: [LIBRARY_PATH=/usr/lib64/gcc/x86_64-solus-linux/6.3.0/:/usr/lib64/gcc/x86_64-solus-linux/6.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-solus-linux/6.3.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-g2' '-O3' '-pipe' '-fPIC' '-Wformat=1' '-Wformat-security' '-malign-data=abi' '-fno-omit-frame-pointer' '-fexceptions' '-fstack-protector' '--param' 'ssp-buffer-size=32' '-fasynchronous-unwind-tables' '-ftree-loop-distribute-patterns' '-fno-semantic-interposition' '-ftree-vectorize' '-ftree-loop-vectorize' '-feliminate-unused-debug-types' '-Wall' '-Wno-error' '-v' '-rdynamic' '-o' 'cmTC_657eb' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib64/gcc/x86_64-solus-linux/6.3.0/collect2 -plugin /usr/lib64/gcc/x86_64-solus-linux/6.3.0/liblto_plugin.so -plugin-opt=/usr/lib64/gcc/x86_64-solus-linux/6.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cchh0ubt.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /usr/lib64/ld-linux-x86-64.so.2 -o cmTC_657eb /usr/lib64/gcc/x86_64-solus-linux/6.3.0/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-solus-linux/6.3.0/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-solus-linux/6.3.0/crtbegin.o -L/usr/lib64/gcc/x86_64-solus-linux/6.3.0 -L/usr/lib64/gcc/x86_64-solus-linux/6.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-solus-linux/6.3.0/../../.. -z relro -z now CMakeFiles/cmTC_657eb.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib64/gcc/x86_64-solus-linux/6.3.0/crtend.o /usr/lib64/gcc/x86_64-solus-linux/6.3.0/../../../../lib64/crtn.o]
-    arg [/usr/lib64/gcc/x86_64-solus-linux/6.3.0/collect2] ==> ignore
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/lto-wrapper]
+  ignore line: [Ziel: x86_64-pc-linux-gnu]
+  ignore line: [Konfiguriert mit: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --enable-libmpx --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --disable-multilib --disable-werror --enable-checking=release]
+  ignore line: [Thread-Modell: posix]
+  ignore line: [gcc-Version 6.3.1 20170306 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/opt/intel/composerxe/compiler/lib/intel64/:/opt/intel/composerxe/ipp/../compiler/lib/intel64/:/opt/intel/composerxe/ipp/lib/intel64/:/opt/intel/composerxe/compiler/lib/intel64/:/opt/intel/composerxe/mkl/lib/intel64/:/opt/intel/composerxe/tbb/lib/intel64/gcc4.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_af96d' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cckqDpYn.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_af96d /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/crt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/crtbegin.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/opt/intel/composerxe/compiler/lib/intel64 -L/opt/intel/composerxe/ipp/../compiler/lib/intel64 -L/opt/intel/composerxe/ipp/lib/intel64 -L/opt/intel/composerxe/compiler/lib/intel64 -L/opt/intel/composerxe/mkl/lib/intel64 -L/opt/intel/composerxe/tbb/lib/intel64/gcc4.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../.. CMakeFiles/cmTC_af96d.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/crtend.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/crtn.o]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/collect2] ==> ignore
     arg [-plugin] ==> ignore
-    arg [/usr/lib64/gcc/x86_64-solus-linux/6.3.0/liblto_plugin.so] ==> ignore
-    arg [-plugin-opt=/usr/lib64/gcc/x86_64-solus-linux/6.3.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cchh0ubt.res] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cckqDpYn.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -100,24 +100,29 @@ Parsed C implicit link information from above output:
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [--build-id] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
     arg [-m] ==> ignore
     arg [elf_x86_64] ==> ignore
     arg [-export-dynamic] ==> ignore
     arg [-dynamic-linker] ==> ignore
-    arg [/usr/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_657eb] ==> ignore
-    arg [/usr/lib64/gcc/x86_64-solus-linux/6.3.0/../../../../lib64/crt1.o] ==> ignore
-    arg [/usr/lib64/gcc/x86_64-solus-linux/6.3.0/../../../../lib64/crti.o] ==> ignore
-    arg [/usr/lib64/gcc/x86_64-solus-linux/6.3.0/crtbegin.o] ==> ignore
-    arg [-L/usr/lib64/gcc/x86_64-solus-linux/6.3.0] ==> dir [/usr/lib64/gcc/x86_64-solus-linux/6.3.0]
-    arg [-L/usr/lib64/gcc/x86_64-solus-linux/6.3.0/../../../../lib64] ==> dir [/usr/lib64/gcc/x86_64-solus-linux/6.3.0/../../../../lib64]
-    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
-    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
-    arg [-L/usr/lib64/gcc/x86_64-solus-linux/6.3.0/../../..] ==> dir [/usr/lib64/gcc/x86_64-solus-linux/6.3.0/../../..]
-    arg [-zrelro] ==> ignore
-    arg [-znow] ==> ignore
-    arg [CMakeFiles/cmTC_657eb.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [cmTC_af96d] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/opt/intel/composerxe/compiler/lib/intel64] ==> dir [/opt/intel/composerxe/compiler/lib/intel64]
+    arg [-L/opt/intel/composerxe/ipp/../compiler/lib/intel64] ==> dir [/opt/intel/composerxe/ipp/../compiler/lib/intel64]
+    arg [-L/opt/intel/composerxe/ipp/lib/intel64] ==> dir [/opt/intel/composerxe/ipp/lib/intel64]
+    arg [-L/opt/intel/composerxe/compiler/lib/intel64] ==> dir [/opt/intel/composerxe/compiler/lib/intel64]
+    arg [-L/opt/intel/composerxe/mkl/lib/intel64] ==> dir [/opt/intel/composerxe/mkl/lib/intel64]
+    arg [-L/opt/intel/composerxe/tbb/lib/intel64/gcc4.1] ==> dir [/opt/intel/composerxe/tbb/lib/intel64/gcc4.1]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../..]
+    arg [CMakeFiles/cmTC_af96d.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -127,36 +132,42 @@ Parsed C implicit link information from above output:
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [--no-as-needed] ==> ignore
-    arg [/usr/lib64/gcc/x86_64-solus-linux/6.3.0/crtend.o] ==> ignore
-    arg [/usr/lib64/gcc/x86_64-solus-linux/6.3.0/../../../../lib64/crtn.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/crtn.o] ==> ignore
   remove lib [gcc]
   remove lib [gcc_s]
   remove lib [gcc]
   remove lib [gcc_s]
-  collapse library dir [/usr/lib64/gcc/x86_64-solus-linux/6.3.0] ==> [/usr/lib64/gcc/x86_64-solus-linux/6.3.0]
-  collapse library dir [/usr/lib64/gcc/x86_64-solus-linux/6.3.0/../../../../lib64] ==> [/usr/lib64]
-  collapse library dir [/lib/../lib64] ==> [/lib64]
-  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
-  collapse library dir [/usr/lib64/gcc/x86_64-solus-linux/6.3.0/../../..] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/opt/intel/composerxe/compiler/lib/intel64] ==> [/opt/intel/composerxe/compiler/lib/intel64]
+  collapse library dir [/opt/intel/composerxe/ipp/../compiler/lib/intel64] ==> [/opt/intel/composerxe/compiler/lib/intel64]
+  collapse library dir [/opt/intel/composerxe/ipp/lib/intel64] ==> [/opt/intel/composerxe/ipp/lib/intel64]
+  collapse library dir [/opt/intel/composerxe/compiler/lib/intel64] ==> [/opt/intel/composerxe/compiler/lib/intel64]
+  collapse library dir [/opt/intel/composerxe/mkl/lib/intel64] ==> [/opt/intel/composerxe/mkl/lib/intel64]
+  collapse library dir [/opt/intel/composerxe/tbb/lib/intel64/gcc4.1] ==> [/opt/intel/composerxe/tbb/lib/intel64/gcc4.1]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../..] ==> [/usr/lib]
   implicit libs: [c]
-  implicit dirs: [/usr/lib64/gcc/x86_64-solus-linux/6.3.0;/usr/lib64;/lib64]
+  implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1;/usr/lib;/lib;/opt/intel/composerxe/compiler/lib/intel64;/opt/intel/composerxe/ipp/lib/intel64;/opt/intel/composerxe/mkl/lib/intel64;/opt/intel/composerxe/tbb/lib/intel64/gcc4.1]
   implicit fwks: []
 
 
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_1c5d3/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_1c5d3.dir/build.make CMakeFiles/cmTC_1c5d3.dir/build
-gmake[1]: Entering directory '/home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1c5d3.dir/feature_tests.c.o
-/usr/bin/cc   -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -malign-data=abi -fno-omit-frame-pointer -fexceptions -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-loop-distribute-patterns -fno-semantic-interposition -ftree-vectorize -ftree-loop-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -std=c11 -o CMakeFiles/cmTC_1c5d3.dir/feature_tests.c.o   -c /home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_1c5d3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c5d3.dir/link.txt --verbose=1
-/usr/bin/cc -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -malign-data=abi -fno-omit-frame-pointer -fexceptions -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-loop-distribute-patterns -fno-semantic-interposition -ftree-vectorize -ftree-loop-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now  -rdynamic CMakeFiles/cmTC_1c5d3.dir/feature_tests.c.o  -o cmTC_1c5d3 
-gmake[1]: Leaving directory '/home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_45bce/fast"
+/usr/bin/make -f CMakeFiles/cmTC_45bce.dir/build.make CMakeFiles/cmTC_45bce.dir/build
+make[1]: Verzeichnis „/home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_45bce.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_45bce.dir/feature_tests.c.o   -c /home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_45bce
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45bce.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_45bce.dir/feature_tests.c.o  -o cmTC_45bce -rdynamic 
+make[1]: Verzeichnis „/home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -166,17 +177,17 @@ gmake[1]: Leaving directory '/home/zlobarq/Documents/CPP/Programmiersprachen/Auf
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_1d9d2/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_1d9d2.dir/build.make CMakeFiles/cmTC_1d9d2.dir/build
-gmake[1]: Entering directory '/home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1d9d2.dir/feature_tests.c.o
-/usr/bin/cc   -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -malign-data=abi -fno-omit-frame-pointer -fexceptions -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-loop-distribute-patterns -fno-semantic-interposition -ftree-vectorize -ftree-loop-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -std=c99 -o CMakeFiles/cmTC_1d9d2.dir/feature_tests.c.o   -c /home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_1d9d2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d9d2.dir/link.txt --verbose=1
-/usr/bin/cc -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -malign-data=abi -fno-omit-frame-pointer -fexceptions -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-loop-distribute-patterns -fno-semantic-interposition -ftree-vectorize -ftree-loop-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now  -rdynamic CMakeFiles/cmTC_1d9d2.dir/feature_tests.c.o  -o cmTC_1d9d2 
-gmake[1]: Leaving directory '/home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_53f87/fast"
+/usr/bin/make -f CMakeFiles/cmTC_53f87.dir/build.make CMakeFiles/cmTC_53f87.dir/build
+make[1]: Verzeichnis „/home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_53f87.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_53f87.dir/feature_tests.c.o   -c /home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_53f87
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53f87.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_53f87.dir/feature_tests.c.o  -o cmTC_53f87 -rdynamic 
+make[1]: Verzeichnis „/home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -186,17 +197,17 @@ gmake[1]: Leaving directory '/home/zlobarq/Documents/CPP/Programmiersprachen/Auf
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_44faa/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_44faa.dir/build.make CMakeFiles/cmTC_44faa.dir/build
-gmake[1]: Entering directory '/home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_44faa.dir/feature_tests.c.o
-/usr/bin/cc   -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -malign-data=abi -fno-omit-frame-pointer -fexceptions -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-loop-distribute-patterns -fno-semantic-interposition -ftree-vectorize -ftree-loop-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -std=c90 -o CMakeFiles/cmTC_44faa.dir/feature_tests.c.o   -c /home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_44faa
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44faa.dir/link.txt --verbose=1
-/usr/bin/cc -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -malign-data=abi -fno-omit-frame-pointer -fexceptions -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-loop-distribute-patterns -fno-semantic-interposition -ftree-vectorize -ftree-loop-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now  -rdynamic CMakeFiles/cmTC_44faa.dir/feature_tests.c.o  -o cmTC_44faa 
-gmake[1]: Leaving directory '/home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_0e67f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0e67f.dir/build.make CMakeFiles/cmTC_0e67f.dir/build
+make[1]: Verzeichnis „/home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_0e67f.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_0e67f.dir/feature_tests.c.o   -c /home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_0e67f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e67f.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_0e67f.dir/feature_tests.c.o  -o cmTC_0e67f -rdynamic 
+make[1]: Verzeichnis „/home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -204,73 +215,73 @@ gmake[1]: Leaving directory '/home/zlobarq/Documents/CPP/Programmiersprachen/Auf
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_cb8b4/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_cb8b4.dir/build.make CMakeFiles/cmTC_cb8b4.dir/build
-gmake[1]: Entering directory '/home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_cb8b4.dir/testCXXCompiler.cxx.o
-/usr/bin/c++    -g2 -O3 -pipe -fPIC -malign-data=abi -fno-omit-frame-pointer -fexceptions -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-loop-distribute-patterns -fno-semantic-interposition -ftree-vectorize -ftree-loop-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -o CMakeFiles/cmTC_cb8b4.dir/testCXXCompiler.cxx.o -c /home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_cb8b4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb8b4.dir/link.txt --verbose=1
-/usr/bin/c++  -g2 -O3 -pipe -fPIC -malign-data=abi -fno-omit-frame-pointer -fexceptions -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-loop-distribute-patterns -fno-semantic-interposition -ftree-vectorize -ftree-loop-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now  -rdynamic CMakeFiles/cmTC_cb8b4.dir/testCXXCompiler.cxx.o  -o cmTC_cb8b4 
-gmake[1]: Leaving directory '/home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_0d16d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0d16d.dir/build.make CMakeFiles/cmTC_0d16d.dir/build
+make[1]: Verzeichnis „/home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird betreten
+Building CXX object CMakeFiles/cmTC_0d16d.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_0d16d.dir/testCXXCompiler.cxx.o -c /home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_0d16d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d16d.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_0d16d.dir/testCXXCompiler.cxx.o  -o cmTC_0d16d -rdynamic 
+make[1]: Verzeichnis „/home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_dc5cc/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_dc5cc.dir/build.make CMakeFiles/cmTC_dc5cc.dir/build
-gmake[1]: Entering directory '/home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_dc5cc.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++    -g2 -O3 -pipe -fPIC -malign-data=abi -fno-omit-frame-pointer -fexceptions -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-loop-distribute-patterns -fno-semantic-interposition -ftree-vectorize -ftree-loop-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -o CMakeFiles/cmTC_dc5cc.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.8/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_dc5cc
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc5cc.dir/link.txt --verbose=1
-/usr/bin/c++  -g2 -O3 -pipe -fPIC -malign-data=abi -fno-omit-frame-pointer -fexceptions -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-loop-distribute-patterns -fno-semantic-interposition -ftree-vectorize -ftree-loop-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now -v -rdynamic CMakeFiles/cmTC_dc5cc.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_dc5cc 
-Using built-in specs.
+Run Build Command:"/usr/bin/make" "cmTC_16bd2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_16bd2.dir/build.make CMakeFiles/cmTC_16bd2.dir/build
+make[1]: Verzeichnis „/home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird betreten
+Building CXX object CMakeFiles/cmTC_16bd2.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_16bd2.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_16bd2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16bd2.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_16bd2.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_16bd2 -rdynamic  
+Es werden eingebaute Spezifikationen verwendet.
 COLLECT_GCC=/usr/bin/c++
-COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-solus-linux/6.3.0/lto-wrapper
-Target: x86_64-solus-linux
-Configured with: ../gcc-6.3.0/configure --prefix=/usr --with-pkgversion=Solus --libdir=/usr/lib64 --libexecdir=/usr/lib64 --with-system-zlib --enable-shared --enable-threads=posix --enable-gnu-indirect-function --enable-__cxa_atexit --enable-plugin --enable-gold --enable-ld=default --enable-clocale=gnu --enable-multilib --with-multilib-list=m32,m64 --enable-lto --with-bugurl=https://dev.solus-project.com/ --with-arch_32=i686 --enable-linker-build-id --build=x86_64-solus-linux --target=x86_64-solus-linux --enable-languages=c,c++,fortran
-Thread model: posix
-gcc version 6.3.0 (Solus) 
-COMPILER_PATH=/usr/lib64/gcc/x86_64-solus-linux/6.3.0/:/usr/lib64/gcc/x86_64-solus-linux/6.3.0/:/usr/lib64/gcc/x86_64-solus-linux/:/usr/lib64/gcc/x86_64-solus-linux/6.3.0/:/usr/lib64/gcc/x86_64-solus-linux/
-LIBRARY_PATH=/usr/lib64/gcc/x86_64-solus-linux/6.3.0/:/usr/lib64/gcc/x86_64-solus-linux/6.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-solus-linux/6.3.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-g2' '-O3' '-pipe' '-fPIC' '-malign-data=abi' '-fno-omit-frame-pointer' '-fexceptions' '-fstack-protector' '--param' 'ssp-buffer-size=32' '-fasynchronous-unwind-tables' '-ftree-loop-distribute-patterns' '-fno-semantic-interposition' '-ftree-vectorize' '-ftree-loop-vectorize' '-feliminate-unused-debug-types' '-Wall' '-Wno-error' '-v' '-rdynamic' '-o' 'cmTC_dc5cc' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib64/gcc/x86_64-solus-linux/6.3.0/collect2 -plugin /usr/lib64/gcc/x86_64-solus-linux/6.3.0/liblto_plugin.so -plugin-opt=/usr/lib64/gcc/x86_64-solus-linux/6.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccm6kpJU.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /usr/lib64/ld-linux-x86-64.so.2 -o cmTC_dc5cc /usr/lib64/gcc/x86_64-solus-linux/6.3.0/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-solus-linux/6.3.0/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-solus-linux/6.3.0/crtbegin.o -L/usr/lib64/gcc/x86_64-solus-linux/6.3.0 -L/usr/lib64/gcc/x86_64-solus-linux/6.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-solus-linux/6.3.0/../../.. -z relro -z now CMakeFiles/cmTC_dc5cc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib64/gcc/x86_64-solus-linux/6.3.0/crtend.o /usr/lib64/gcc/x86_64-solus-linux/6.3.0/../../../../lib64/crtn.o
-COLLECT_GCC_OPTIONS='-g2' '-O3' '-pipe' '-fPIC' '-malign-data=abi' '-fno-omit-frame-pointer' '-fexceptions' '-fstack-protector' '--param' 'ssp-buffer-size=32' '-fasynchronous-unwind-tables' '-ftree-loop-distribute-patterns' '-fno-semantic-interposition' '-ftree-vectorize' '-ftree-loop-vectorize' '-feliminate-unused-debug-types' '-Wall' '-Wno-error' '-v' '-rdynamic' '-o' 'cmTC_dc5cc' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-gmake[1]: Leaving directory '/home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp'
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/lto-wrapper
+Ziel: x86_64-pc-linux-gnu
+Konfiguriert mit: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --enable-libmpx --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --disable-multilib --disable-werror --enable-checking=release
+Thread-Modell: posix
+gcc-Version 6.3.1 20170306 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/opt/intel/composerxe/compiler/lib/intel64/:/opt/intel/composerxe/ipp/../compiler/lib/intel64/:/opt/intel/composerxe/ipp/lib/intel64/:/opt/intel/composerxe/compiler/lib/intel64/:/opt/intel/composerxe/mkl/lib/intel64/:/opt/intel/composerxe/tbb/lib/intel64/gcc4.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_16bd2' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccsLwsvr.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_16bd2 /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/crt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/crtbegin.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/opt/intel/composerxe/compiler/lib/intel64 -L/opt/intel/composerxe/ipp/../compiler/lib/intel64 -L/opt/intel/composerxe/ipp/lib/intel64 -L/opt/intel/composerxe/compiler/lib/intel64 -L/opt/intel/composerxe/mkl/lib/intel64 -L/opt/intel/composerxe/tbb/lib/intel64/gcc4.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../.. CMakeFiles/cmTC_16bd2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/crtend.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_16bd2' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Verzeichnis „/home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_dc5cc/fast"]
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_dc5cc.dir/build.make CMakeFiles/cmTC_dc5cc.dir/build]
-  ignore line: [gmake[1]: Entering directory '/home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_dc5cc.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++    -g2 -O3 -pipe -fPIC -malign-data=abi -fno-omit-frame-pointer -fexceptions -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-loop-distribute-patterns -fno-semantic-interposition -ftree-vectorize -ftree-loop-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -o CMakeFiles/cmTC_dc5cc.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.8/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_dc5cc]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc5cc.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++  -g2 -O3 -pipe -fPIC -malign-data=abi -fno-omit-frame-pointer -fexceptions -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-loop-distribute-patterns -fno-semantic-interposition -ftree-vectorize -ftree-loop-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now -v -rdynamic CMakeFiles/cmTC_dc5cc.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_dc5cc ]
-  ignore line: [Using built-in specs.]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_16bd2/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_16bd2.dir/build.make CMakeFiles/cmTC_16bd2.dir/build]
+  ignore line: [make[1]: Verzeichnis „/home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird betreten]
+  ignore line: [Building CXX object CMakeFiles/cmTC_16bd2.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_16bd2.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_16bd2]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16bd2.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_16bd2.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_16bd2 -rdynamic  ]
+  ignore line: [Es werden eingebaute Spezifikationen verwendet.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
-  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-solus-linux/6.3.0/lto-wrapper]
-  ignore line: [Target: x86_64-solus-linux]
-  ignore line: [Configured with: ../gcc-6.3.0/configure --prefix=/usr --with-pkgversion=Solus --libdir=/usr/lib64 --libexecdir=/usr/lib64 --with-system-zlib --enable-shared --enable-threads=posix --enable-gnu-indirect-function --enable-__cxa_atexit --enable-plugin --enable-gold --enable-ld=default --enable-clocale=gnu --enable-multilib --with-multilib-list=m32,m64 --enable-lto --with-bugurl=https://dev.solus-project.com/ --with-arch_32=i686 --enable-linker-build-id --build=x86_64-solus-linux --target=x86_64-solus-linux --enable-languages=c,c++,fortran]
-  ignore line: [Thread model: posix]
-  ignore line: [gcc version 6.3.0 (Solus) ]
-  ignore line: [COMPILER_PATH=/usr/lib64/gcc/x86_64-solus-linux/6.3.0/:/usr/lib64/gcc/x86_64-solus-linux/6.3.0/:/usr/lib64/gcc/x86_64-solus-linux/:/usr/lib64/gcc/x86_64-solus-linux/6.3.0/:/usr/lib64/gcc/x86_64-solus-linux/]
-  ignore line: [LIBRARY_PATH=/usr/lib64/gcc/x86_64-solus-linux/6.3.0/:/usr/lib64/gcc/x86_64-solus-linux/6.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-solus-linux/6.3.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-g2' '-O3' '-pipe' '-fPIC' '-malign-data=abi' '-fno-omit-frame-pointer' '-fexceptions' '-fstack-protector' '--param' 'ssp-buffer-size=32' '-fasynchronous-unwind-tables' '-ftree-loop-distribute-patterns' '-fno-semantic-interposition' '-ftree-vectorize' '-ftree-loop-vectorize' '-feliminate-unused-debug-types' '-Wall' '-Wno-error' '-v' '-rdynamic' '-o' 'cmTC_dc5cc' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib64/gcc/x86_64-solus-linux/6.3.0/collect2 -plugin /usr/lib64/gcc/x86_64-solus-linux/6.3.0/liblto_plugin.so -plugin-opt=/usr/lib64/gcc/x86_64-solus-linux/6.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccm6kpJU.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /usr/lib64/ld-linux-x86-64.so.2 -o cmTC_dc5cc /usr/lib64/gcc/x86_64-solus-linux/6.3.0/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-solus-linux/6.3.0/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-solus-linux/6.3.0/crtbegin.o -L/usr/lib64/gcc/x86_64-solus-linux/6.3.0 -L/usr/lib64/gcc/x86_64-solus-linux/6.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-solus-linux/6.3.0/../../.. -z relro -z now CMakeFiles/cmTC_dc5cc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib64/gcc/x86_64-solus-linux/6.3.0/crtend.o /usr/lib64/gcc/x86_64-solus-linux/6.3.0/../../../../lib64/crtn.o]
-    arg [/usr/lib64/gcc/x86_64-solus-linux/6.3.0/collect2] ==> ignore
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/lto-wrapper]
+  ignore line: [Ziel: x86_64-pc-linux-gnu]
+  ignore line: [Konfiguriert mit: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --enable-libmpx --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --disable-multilib --disable-werror --enable-checking=release]
+  ignore line: [Thread-Modell: posix]
+  ignore line: [gcc-Version 6.3.1 20170306 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/opt/intel/composerxe/compiler/lib/intel64/:/opt/intel/composerxe/ipp/../compiler/lib/intel64/:/opt/intel/composerxe/ipp/lib/intel64/:/opt/intel/composerxe/compiler/lib/intel64/:/opt/intel/composerxe/mkl/lib/intel64/:/opt/intel/composerxe/tbb/lib/intel64/gcc4.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_16bd2' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccsLwsvr.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_16bd2 /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/crt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/crtbegin.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/opt/intel/composerxe/compiler/lib/intel64 -L/opt/intel/composerxe/ipp/../compiler/lib/intel64 -L/opt/intel/composerxe/ipp/lib/intel64 -L/opt/intel/composerxe/compiler/lib/intel64 -L/opt/intel/composerxe/mkl/lib/intel64 -L/opt/intel/composerxe/tbb/lib/intel64/gcc4.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../.. CMakeFiles/cmTC_16bd2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/crtend.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/crtn.o]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/collect2] ==> ignore
     arg [-plugin] ==> ignore
-    arg [/usr/lib64/gcc/x86_64-solus-linux/6.3.0/liblto_plugin.so] ==> ignore
-    arg [-plugin-opt=/usr/lib64/gcc/x86_64-solus-linux/6.3.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccm6kpJU.res] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccsLwsvr.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -278,24 +289,29 @@ Parsed CXX implicit link information from above output:
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [--build-id] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
     arg [-m] ==> ignore
     arg [elf_x86_64] ==> ignore
     arg [-export-dynamic] ==> ignore
     arg [-dynamic-linker] ==> ignore
-    arg [/usr/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_dc5cc] ==> ignore
-    arg [/usr/lib64/gcc/x86_64-solus-linux/6.3.0/../../../../lib64/crt1.o] ==> ignore
-    arg [/usr/lib64/gcc/x86_64-solus-linux/6.3.0/../../../../lib64/crti.o] ==> ignore
-    arg [/usr/lib64/gcc/x86_64-solus-linux/6.3.0/crtbegin.o] ==> ignore
-    arg [-L/usr/lib64/gcc/x86_64-solus-linux/6.3.0] ==> dir [/usr/lib64/gcc/x86_64-solus-linux/6.3.0]
-    arg [-L/usr/lib64/gcc/x86_64-solus-linux/6.3.0/../../../../lib64] ==> dir [/usr/lib64/gcc/x86_64-solus-linux/6.3.0/../../../../lib64]
-    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
-    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
-    arg [-L/usr/lib64/gcc/x86_64-solus-linux/6.3.0/../../..] ==> dir [/usr/lib64/gcc/x86_64-solus-linux/6.3.0/../../..]
-    arg [-zrelro] ==> ignore
-    arg [-znow] ==> ignore
-    arg [CMakeFiles/cmTC_dc5cc.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [cmTC_16bd2] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/opt/intel/composerxe/compiler/lib/intel64] ==> dir [/opt/intel/composerxe/compiler/lib/intel64]
+    arg [-L/opt/intel/composerxe/ipp/../compiler/lib/intel64] ==> dir [/opt/intel/composerxe/ipp/../compiler/lib/intel64]
+    arg [-L/opt/intel/composerxe/ipp/lib/intel64] ==> dir [/opt/intel/composerxe/ipp/lib/intel64]
+    arg [-L/opt/intel/composerxe/compiler/lib/intel64] ==> dir [/opt/intel/composerxe/compiler/lib/intel64]
+    arg [-L/opt/intel/composerxe/mkl/lib/intel64] ==> dir [/opt/intel/composerxe/mkl/lib/intel64]
+    arg [-L/opt/intel/composerxe/tbb/lib/intel64/gcc4.1] ==> dir [/opt/intel/composerxe/tbb/lib/intel64/gcc4.1]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../..]
+    arg [CMakeFiles/cmTC_16bd2.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -303,109 +319,42 @@ Parsed CXX implicit link information from above output:
     arg [-lc] ==> lib [c]
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [-lgcc] ==> lib [gcc]
-    arg [/usr/lib64/gcc/x86_64-solus-linux/6.3.0/crtend.o] ==> ignore
-    arg [/usr/lib64/gcc/x86_64-solus-linux/6.3.0/../../../../lib64/crtn.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/crtn.o] ==> ignore
   remove lib [gcc_s]
   remove lib [gcc]
   remove lib [gcc_s]
   remove lib [gcc]
-  collapse library dir [/usr/lib64/gcc/x86_64-solus-linux/6.3.0] ==> [/usr/lib64/gcc/x86_64-solus-linux/6.3.0]
-  collapse library dir [/usr/lib64/gcc/x86_64-solus-linux/6.3.0/../../../../lib64] ==> [/usr/lib64]
-  collapse library dir [/lib/../lib64] ==> [/lib64]
-  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
-  collapse library dir [/usr/lib64/gcc/x86_64-solus-linux/6.3.0/../../..] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/opt/intel/composerxe/compiler/lib/intel64] ==> [/opt/intel/composerxe/compiler/lib/intel64]
+  collapse library dir [/opt/intel/composerxe/ipp/../compiler/lib/intel64] ==> [/opt/intel/composerxe/compiler/lib/intel64]
+  collapse library dir [/opt/intel/composerxe/ipp/lib/intel64] ==> [/opt/intel/composerxe/ipp/lib/intel64]
+  collapse library dir [/opt/intel/composerxe/compiler/lib/intel64] ==> [/opt/intel/composerxe/compiler/lib/intel64]
+  collapse library dir [/opt/intel/composerxe/mkl/lib/intel64] ==> [/opt/intel/composerxe/mkl/lib/intel64]
+  collapse library dir [/opt/intel/composerxe/tbb/lib/intel64/gcc4.1] ==> [/opt/intel/composerxe/tbb/lib/intel64/gcc4.1]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../..] ==> [/usr/lib]
   implicit libs: [stdc++;m;c]
-  implicit dirs: [/usr/lib64/gcc/x86_64-solus-linux/6.3.0;/usr/lib64;/lib64]
+  implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1;/usr/lib;/lib;/opt/intel/composerxe/compiler/lib/intel64;/opt/intel/composerxe/ipp/lib/intel64;/opt/intel/composerxe/mkl/lib/intel64;/opt/intel/composerxe/tbb/lib/intel64/gcc4.1]
   implicit fwks: []
 
 
 
 
-Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/gmake" "cmTC_6f111/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_6f111.dir/build.make CMakeFiles/cmTC_6f111.dir/build
-gmake[1]: Entering directory '/home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_6f111.dir/feature_tests.cxx.o
-/usr/bin/c++    -g2 -O3 -pipe -fPIC -malign-data=abi -fno-omit-frame-pointer -fexceptions -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-loop-distribute-patterns -fno-semantic-interposition -ftree-vectorize -ftree-loop-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -std=c++1z -o CMakeFiles/cmTC_6f111.dir/feature_tests.cxx.o -c /home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_6f111
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f111.dir/link.txt --verbose=1
-/usr/bin/c++  -g2 -O3 -pipe -fPIC -malign-data=abi -fno-omit-frame-pointer -fexceptions -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-loop-distribute-patterns -fno-semantic-interposition -ftree-vectorize -ftree-loop-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now  -rdynamic CMakeFiles/cmTC_6f111.dir/feature_tests.cxx.o  -o cmTC_6f111 
-gmake[1]: Leaving directory '/home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp'
-
-
-    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
-    Feature record: CXX_FEATURE:1cxx_alias_templates
-    Feature record: CXX_FEATURE:1cxx_alignas
-    Feature record: CXX_FEATURE:1cxx_alignof
-    Feature record: CXX_FEATURE:1cxx_attributes
-    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
-    Feature record: CXX_FEATURE:1cxx_auto_type
-    Feature record: CXX_FEATURE:1cxx_binary_literals
-    Feature record: CXX_FEATURE:1cxx_constexpr
-    Feature record: CXX_FEATURE:1cxx_contextual_conversions
-    Feature record: CXX_FEATURE:1cxx_decltype
-    Feature record: CXX_FEATURE:1cxx_decltype_auto
-    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
-    Feature record: CXX_FEATURE:1cxx_default_function_template_args
-    Feature record: CXX_FEATURE:1cxx_defaulted_functions
-    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
-    Feature record: CXX_FEATURE:1cxx_delegating_constructors
-    Feature record: CXX_FEATURE:1cxx_deleted_functions
-    Feature record: CXX_FEATURE:1cxx_digit_separators
-    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
-    Feature record: CXX_FEATURE:1cxx_explicit_conversions
-    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
-    Feature record: CXX_FEATURE:1cxx_extern_templates
-    Feature record: CXX_FEATURE:1cxx_final
-    Feature record: CXX_FEATURE:1cxx_func_identifier
-    Feature record: CXX_FEATURE:1cxx_generalized_initializers
-    Feature record: CXX_FEATURE:1cxx_generic_lambdas
-    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
-    Feature record: CXX_FEATURE:1cxx_inline_namespaces
-    Feature record: CXX_FEATURE:1cxx_lambdas
-    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
-    Feature record: CXX_FEATURE:1cxx_local_type_template_args
-    Feature record: CXX_FEATURE:1cxx_long_long_type
-    Feature record: CXX_FEATURE:1cxx_noexcept
-    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
-    Feature record: CXX_FEATURE:1cxx_nullptr
-    Feature record: CXX_FEATURE:1cxx_override
-    Feature record: CXX_FEATURE:1cxx_range_for
-    Feature record: CXX_FEATURE:1cxx_raw_string_literals
-    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
-    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
-    Feature record: CXX_FEATURE:1cxx_return_type_deduction
-    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
-    Feature record: CXX_FEATURE:1cxx_rvalue_references
-    Feature record: CXX_FEATURE:1cxx_sizeof_member
-    Feature record: CXX_FEATURE:1cxx_static_assert
-    Feature record: CXX_FEATURE:1cxx_strong_enums
-    Feature record: CXX_FEATURE:1cxx_template_template_parameters
-    Feature record: CXX_FEATURE:1cxx_thread_local
-    Feature record: CXX_FEATURE:1cxx_trailing_return_types
-    Feature record: CXX_FEATURE:1cxx_unicode_literals
-    Feature record: CXX_FEATURE:1cxx_uniform_initialization
-    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
-    Feature record: CXX_FEATURE:1cxx_user_literals
-    Feature record: CXX_FEATURE:1cxx_variable_templates
-    Feature record: CXX_FEATURE:1cxx_variadic_macros
-    Feature record: CXX_FEATURE:1cxx_variadic_templates
-
-
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_f9a6b/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_f9a6b.dir/build.make CMakeFiles/cmTC_f9a6b.dir/build
-gmake[1]: Entering directory '/home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f9a6b.dir/feature_tests.cxx.o
-/usr/bin/c++    -g2 -O3 -pipe -fPIC -malign-data=abi -fno-omit-frame-pointer -fexceptions -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-loop-distribute-patterns -fno-semantic-interposition -ftree-vectorize -ftree-loop-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -std=c++14 -o CMakeFiles/cmTC_f9a6b.dir/feature_tests.cxx.o -c /home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_f9a6b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9a6b.dir/link.txt --verbose=1
-/usr/bin/c++  -g2 -O3 -pipe -fPIC -malign-data=abi -fno-omit-frame-pointer -fexceptions -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-loop-distribute-patterns -fno-semantic-interposition -ftree-vectorize -ftree-loop-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now  -rdynamic CMakeFiles/cmTC_f9a6b.dir/feature_tests.cxx.o  -o cmTC_f9a6b 
-gmake[1]: Leaving directory '/home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_f2b28/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f2b28.dir/build.make CMakeFiles/cmTC_f2b28.dir/build
+make[1]: Verzeichnis „/home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird betreten
+Building CXX object CMakeFiles/cmTC_f2b28.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_f2b28.dir/feature_tests.cxx.o -c /home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_f2b28
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2b28.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_f2b28.dir/feature_tests.cxx.o  -o cmTC_f2b28 -rdynamic 
+make[1]: Verzeichnis „/home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -468,17 +417,17 @@ gmake[1]: Leaving directory '/home/zlobarq/Documents/CPP/Programmiersprachen/Auf
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_b38e7/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_b38e7.dir/build.make CMakeFiles/cmTC_b38e7.dir/build
-gmake[1]: Entering directory '/home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b38e7.dir/feature_tests.cxx.o
-/usr/bin/c++    -g2 -O3 -pipe -fPIC -malign-data=abi -fno-omit-frame-pointer -fexceptions -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-loop-distribute-patterns -fno-semantic-interposition -ftree-vectorize -ftree-loop-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -std=c++11 -o CMakeFiles/cmTC_b38e7.dir/feature_tests.cxx.o -c /home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_b38e7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b38e7.dir/link.txt --verbose=1
-/usr/bin/c++  -g2 -O3 -pipe -fPIC -malign-data=abi -fno-omit-frame-pointer -fexceptions -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-loop-distribute-patterns -fno-semantic-interposition -ftree-vectorize -ftree-loop-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now  -rdynamic CMakeFiles/cmTC_b38e7.dir/feature_tests.cxx.o  -o cmTC_b38e7 
-gmake[1]: Leaving directory '/home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_57a7b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_57a7b.dir/build.make CMakeFiles/cmTC_57a7b.dir/build
+make[1]: Verzeichnis „/home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird betreten
+Building CXX object CMakeFiles/cmTC_57a7b.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_57a7b.dir/feature_tests.cxx.o -c /home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_57a7b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57a7b.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_57a7b.dir/feature_tests.cxx.o  -o cmTC_57a7b -rdynamic 
+make[1]: Verzeichnis „/home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -541,17 +490,17 @@ gmake[1]: Leaving directory '/home/zlobarq/Documents/CPP/Programmiersprachen/Auf
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_9dbb2/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_9dbb2.dir/build.make CMakeFiles/cmTC_9dbb2.dir/build
-gmake[1]: Entering directory '/home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_9dbb2.dir/feature_tests.cxx.o
-/usr/bin/c++    -g2 -O3 -pipe -fPIC -malign-data=abi -fno-omit-frame-pointer -fexceptions -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-loop-distribute-patterns -fno-semantic-interposition -ftree-vectorize -ftree-loop-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -std=c++98 -o CMakeFiles/cmTC_9dbb2.dir/feature_tests.cxx.o -c /home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_9dbb2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9dbb2.dir/link.txt --verbose=1
-/usr/bin/c++  -g2 -O3 -pipe -fPIC -malign-data=abi -fno-omit-frame-pointer -fexceptions -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-loop-distribute-patterns -fno-semantic-interposition -ftree-vectorize -ftree-loop-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now  -rdynamic CMakeFiles/cmTC_9dbb2.dir/feature_tests.cxx.o  -o cmTC_9dbb2 
-gmake[1]: Leaving directory '/home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_42687/fast"
+/usr/bin/make -f CMakeFiles/cmTC_42687.dir/build.make CMakeFiles/cmTC_42687.dir/build
+make[1]: Verzeichnis „/home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird betreten
+Building CXX object CMakeFiles/cmTC_42687.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_42687.dir/feature_tests.cxx.o -c /home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_42687
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42687.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_42687.dir/feature_tests.cxx.o  -o cmTC_42687 -rdynamic 
+make[1]: Verzeichnis „/home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -612,100 +561,114 @@ gmake[1]: Leaving directory '/home/zlobarq/Documents/CPP/Programmiersprachen/Auf
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_4fc09/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_4fc09.dir/build.make CMakeFiles/cmTC_4fc09.dir/build
-gmake[1]: Entering directory '/home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4fc09.dir/CheckIncludeFile.c.o
-/usr/bin/cc   -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -malign-data=abi -fno-omit-frame-pointer -fexceptions -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-loop-distribute-patterns -fno-semantic-interposition -ftree-vectorize -ftree-loop-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -o CMakeFiles/cmTC_4fc09.dir/CheckIncludeFile.c.o   -c /home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_4fc09
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4fc09.dir/link.txt --verbose=1
-/usr/bin/cc -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -malign-data=abi -fno-omit-frame-pointer -fexceptions -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-loop-distribute-patterns -fno-semantic-interposition -ftree-vectorize -ftree-loop-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now  -rdynamic CMakeFiles/cmTC_4fc09.dir/CheckIncludeFile.c.o  -o cmTC_4fc09 
-gmake[1]: Leaving directory '/home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_09e2f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_09e2f.dir/build.make CMakeFiles/cmTC_09e2f.dir/build
+make[1]: Verzeichnis „/home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_09e2f.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_09e2f.dir/CheckIncludeFile.c.o   -c /home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_09e2f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09e2f.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_09e2f.dir/CheckIncludeFile.c.o  -o cmTC_09e2f -rdynamic 
+make[1]: Verzeichnis „/home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_20a2b/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_20a2b.dir/build.make CMakeFiles/cmTC_20a2b.dir/build
-gmake[1]: Entering directory '/home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_20a2b.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -malign-data=abi -fno-omit-frame-pointer -fexceptions -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-loop-distribute-patterns -fno-semantic-interposition -ftree-vectorize -ftree-loop-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_20a2b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.8/Modules/CheckFunctionExists.c
-Linking C executable cmTC_20a2b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20a2b.dir/link.txt --verbose=1
-/usr/bin/cc -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -malign-data=abi -fno-omit-frame-pointer -fexceptions -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-loop-distribute-patterns -fno-semantic-interposition -ftree-vectorize -ftree-loop-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT -DCHECK_FUNCTION_EXISTS=pthread_create  -Wl,-z,relro -Wl,-z,now  -rdynamic CMakeFiles/cmTC_20a2b.dir/CheckFunctionExists.c.o  -o cmTC_20a2b -lpthread 
-gmake[1]: Leaving directory '/home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_5774d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5774d.dir/build.make CMakeFiles/cmTC_5774d.dir/build
+make[1]: Verzeichnis „/home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_5774d.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_5774d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5774d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5774d.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_5774d.dir/CheckFunctionExists.c.o  -o cmTC_5774d -rdynamic -lpthread 
+make[1]: Verzeichnis „/home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
-Determining if the function XOpenDisplay exists in the /usr/lib/libX11.so;/usr/lib/libXext.so passed with the following output:
-Change Dir: /home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
+Determining if the function XOpenDisplay exists in the /usr/lib64/libX11.so;/usr/lib64/libXext.so passed with the following output:
+Change Dir: /home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_9b4e4/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_9b4e4.dir/build.make CMakeFiles/cmTC_9b4e4.dir/build
-gmake[1]: Entering directory '/home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9b4e4.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -malign-data=abi -fno-omit-frame-pointer -fexceptions -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-loop-distribute-patterns -fno-semantic-interposition -ftree-vectorize -ftree-loop-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_9b4e4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.8/Modules/CheckFunctionExists.c
-Linking C executable cmTC_9b4e4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b4e4.dir/link.txt --verbose=1
-/usr/bin/cc -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -malign-data=abi -fno-omit-frame-pointer -fexceptions -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-loop-distribute-patterns -fno-semantic-interposition -ftree-vectorize -ftree-loop-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT -DCHECK_FUNCTION_EXISTS=XOpenDisplay  -Wl,-z,relro -Wl,-z,now  -rdynamic CMakeFiles/cmTC_9b4e4.dir/CheckFunctionExists.c.o  -o cmTC_9b4e4 /usr/lib/libX11.so /usr/lib/libXext.so 
-gmake[1]: Leaving directory '/home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_e73d6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e73d6.dir/build.make CMakeFiles/cmTC_e73d6.dir/build
+make[1]: Verzeichnis „/home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_e73d6.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_e73d6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e73d6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e73d6.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTC_e73d6.dir/CheckFunctionExists.c.o  -o cmTC_e73d6 -rdynamic /usr/lib64/libX11.so /usr/lib64/libXext.so 
+make[1]: Verzeichnis „/home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
 Determining if the function gethostbyname exists passed with the following output:
-Change Dir: /home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_f1cf3/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_f1cf3.dir/build.make CMakeFiles/cmTC_f1cf3.dir/build
-gmake[1]: Entering directory '/home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f1cf3.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -malign-data=abi -fno-omit-frame-pointer -fexceptions -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-loop-distribute-patterns -fno-semantic-interposition -ftree-vectorize -ftree-loop-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_f1cf3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.8/Modules/CheckFunctionExists.c
-Linking C executable cmTC_f1cf3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1cf3.dir/link.txt --verbose=1
-/usr/bin/cc -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -malign-data=abi -fno-omit-frame-pointer -fexceptions -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-loop-distribute-patterns -fno-semantic-interposition -ftree-vectorize -ftree-loop-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT -DCHECK_FUNCTION_EXISTS=gethostbyname  -Wl,-z,relro -Wl,-z,now  -rdynamic CMakeFiles/cmTC_f1cf3.dir/CheckFunctionExists.c.o  -o cmTC_f1cf3 
-gmake[1]: Leaving directory '/home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_73f36/fast"
+/usr/bin/make -f CMakeFiles/cmTC_73f36.dir/build.make CMakeFiles/cmTC_73f36.dir/build
+make[1]: Verzeichnis „/home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_73f36.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_73f36.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_73f36
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73f36.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTC_73f36.dir/CheckFunctionExists.c.o  -o cmTC_73f36 -rdynamic 
+make[1]: Verzeichnis „/home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
 Determining if the function connect exists passed with the following output:
-Change Dir: /home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_4a182/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_4a182.dir/build.make CMakeFiles/cmTC_4a182.dir/build
-gmake[1]: Entering directory '/home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4a182.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -malign-data=abi -fno-omit-frame-pointer -fexceptions -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-loop-distribute-patterns -fno-semantic-interposition -ftree-vectorize -ftree-loop-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_4a182.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.8/Modules/CheckFunctionExists.c
-Linking C executable cmTC_4a182
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a182.dir/link.txt --verbose=1
-/usr/bin/cc -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -malign-data=abi -fno-omit-frame-pointer -fexceptions -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-loop-distribute-patterns -fno-semantic-interposition -ftree-vectorize -ftree-loop-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT -DCHECK_FUNCTION_EXISTS=connect  -Wl,-z,relro -Wl,-z,now  -rdynamic CMakeFiles/cmTC_4a182.dir/CheckFunctionExists.c.o  -o cmTC_4a182 
-gmake[1]: Leaving directory '/home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_c6d9d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c6d9d.dir/build.make CMakeFiles/cmTC_c6d9d.dir/build
+make[1]: Verzeichnis „/home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_c6d9d.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_c6d9d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c6d9d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6d9d.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTC_c6d9d.dir/CheckFunctionExists.c.o  -o cmTC_c6d9d -rdynamic 
+make[1]: Verzeichnis „/home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
 Determining if the function remove exists passed with the following output:
-Change Dir: /home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_25d7d/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_25d7d.dir/build.make CMakeFiles/cmTC_25d7d.dir/build
-gmake[1]: Entering directory '/home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_25d7d.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -malign-data=abi -fno-omit-frame-pointer -fexceptions -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-loop-distribute-patterns -fno-semantic-interposition -ftree-vectorize -ftree-loop-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_25d7d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.8/Modules/CheckFunctionExists.c
-Linking C executable cmTC_25d7d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25d7d.dir/link.txt --verbose=1
-/usr/bin/cc -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -malign-data=abi -fno-omit-frame-pointer -fexceptions -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-loop-distribute-patterns -fno-semantic-interposition -ftree-vectorize -ftree-loop-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT -DCHECK_FUNCTION_EXISTS=remove  -Wl,-z,relro -Wl,-z,now  -rdynamic CMakeFiles/cmTC_25d7d.dir/CheckFunctionExists.c.o  -o cmTC_25d7d 
-gmake[1]: Leaving directory '/home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_3a3d7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3a3d7.dir/build.make CMakeFiles/cmTC_3a3d7.dir/build
+make[1]: Verzeichnis „/home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_3a3d7.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_3a3d7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3a3d7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a3d7.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTC_3a3d7.dir/CheckFunctionExists.c.o  -o cmTC_3a3d7 -rdynamic 
+make[1]: Verzeichnis „/home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
 Determining if the function shmat exists passed with the following output:
-Change Dir: /home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
+Change Dir: /home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_5c4d7/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_5c4d7.dir/build.make CMakeFiles/cmTC_5c4d7.dir/build
-gmake[1]: Entering directory '/home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5c4d7.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -malign-data=abi -fno-omit-frame-pointer -fexceptions -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-loop-distribute-patterns -fno-semantic-interposition -ftree-vectorize -ftree-loop-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_5c4d7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.8/Modules/CheckFunctionExists.c
-Linking C executable cmTC_5c4d7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c4d7.dir/link.txt --verbose=1
-/usr/bin/cc -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -malign-data=abi -fno-omit-frame-pointer -fexceptions -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-loop-distribute-patterns -fno-semantic-interposition -ftree-vectorize -ftree-loop-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT -DCHECK_FUNCTION_EXISTS=shmat  -Wl,-z,relro -Wl,-z,now  -rdynamic CMakeFiles/cmTC_5c4d7.dir/CheckFunctionExists.c.o  -o cmTC_5c4d7 
-gmake[1]: Leaving directory '/home/zlobarq/Documents/CPP/Programmiersprachen/Aufgabe4/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_b51bd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b51bd.dir/build.make CMakeFiles/cmTC_b51bd.dir/build
+make[1]: Verzeichnis „/home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_b51bd.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_b51bd.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b51bd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b51bd.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTC_b51bd.dir/CheckFunctionExists.c.o  -o cmTC_b51bd -rdynamic 
+make[1]: Verzeichnis „/home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird verlassen
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_66266/fast"
+/usr/bin/make -f CMakeFiles/cmTC_66266.dir/build.make CMakeFiles/cmTC_66266.dir/build
+make[1]: Verzeichnis „/home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_66266.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_66266.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_66266
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66266.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTC_66266.dir/CheckFunctionExists.c.o  -o cmTC_66266 -rdynamic -lICE 
+make[1]: Verzeichnis „/home/noxo9240/home/home/m/s/noxo9240/HG/Prograimmiersprachen/programmiersprachen-aufgabenblatt-4/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 

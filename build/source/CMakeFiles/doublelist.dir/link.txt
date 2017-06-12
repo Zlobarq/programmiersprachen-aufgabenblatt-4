@@ -1,1 +1,1 @@
-/usr/bin/c++  -std=c++14 -Wall  -Wl,-z,relro -Wl,-z,now -rdynamic CMakeFiles/doublelist.dir/list.cpp.o  -o doublelist 
+/usr/bin/c++   -std=c++14 -Wall -g   CMakeFiles/doublelist.dir/list.cpp.o  -o doublelist -rdynamic 
